@@ -15,7 +15,7 @@ The Rock Rapids community applications ecosystem consists of eight interconnecte
 - [Rockrapids.INFO](https://rockrapids.github.io/FOSS/0/): The central hub and top-level gateway to all Rock Rapids applications
 - [Rockrapids.ART](https://rockrapids.github.io/FOSS/1/): Information about arts, crafts, creative endeavors that showcases Rock Rapids citizens.
 - [Rockrapids.FUN](https://rockrapids.github.io/FOSS/2/): Highlighting recreational activities and entertainment options, especially in Rock Rapids.
-- [Rockrapids.GUIDE](https://rockrapids.github.io/FOSS/3/): Providing civic, school, church, Sheriff, EMT/Fire and public service information
+- [Rockrapids.GUIDE](https://rockrapids.github.io/FOSS/3/): City, school, daycare, church, sheriff, highway patrol, road condition, EMT/Fire and public service guideance
 - [Rockrapids.SHOP](https://rockrapids.github.io/FOSS/4/): Featuring retail promotions and shopping events of Rock Rapids merchants/vendors.
 - [Rockrapids.STORE](https://rockrapids.github.io/FOSS/5/): Listing marketplace items and products for sale that showcase locally available items.
 - [Rockrapids.WORK](https://rockrapids.github.io/FOSS/6/): Connecting people with employment opportunities
@@ -23,51 +23,13 @@ The Rock Rapids community applications ecosystem consists of eight interconnecte
 
 ## Design Philosophy
 
-Our approach focuses on three core principles:
+Our API-first, low-latency approach focuses on three core principles:
 
-1. **Reuse what works**: We prioritize established, proven solutions rather than reinventing systems unnecessarily
-2. **Connect and fill gaps**: We focus on integrating existing resources and addressing unmet needs
-3. **Build for maintainability**: We create simple, sustainable solutions that future volunteers can easily maintain and improve
+1. **Ditch any sense of entitlement**: We don't expect users to change their media preferences; instead we prioritize reliable, utilitarian tools that better present choices
+2. **Connect dots; let users fill gaps**: We use AI to integrate significant more sources of information and choose lower-latency technologies to better present comparable choices
+3. **Develop the Developers**: The project is about developing the developers who will [dogfood](https://en.wikipedia.org/wiki/Eating_your_own_dog_food) simple, EXTENSIBLE open source solutions that can readily maintain and improved
 
-For a deeper understanding of our approach, please review these key documents:
-- [Integrate Necessary Existing and Future Datastores](https://rockrapids.github.io/communication/2025/03/31/RockRapidsApps-Step0-1.html)
-- [Design For Maintainability and Extensibility](https://rockrapids.github.io/communication/2025/03/31/RockRapidsApps-Step0-4.html)
-- [Technical Architecture Overview](https://rockrapids.github.io/communication/2025/03/29/RockRapidsApps.html)
-
-## Technical Architecture
-
-The applications are built using:
-
-- **Frontend Framework**: [Remix](https://remix.run/)
-- **Data Management**: Polyglot persistence strategy (PostgreSQL, MongoDB, Redis)
-- **Deployment**: [Fly.io](https://fly.io/)
-- **Repository Structure**: Monorepo with shared packages
-
-This architecture was selected for its maintainability, performance, and alignment with the skill sets available in our volunteer community.
-
-## Getting Started
-
-### For Users
-
-Visit [RockRapids.INFO](https://rockrapids.info) to access the central hub for all Rock Rapids community applications.
-
-### For Local Developers
-
-1. Attend one of our monthly contributor meetings in Rock Rapids (see [RockRapids.INFO](https://rockrapids.info) for schedule)
-2. Review our [Contributing Guidelines](CONTRIBUTING.md)
-3. Set up your local development environment:
-
-```bash
-# Clone the repository
-git clone https://github.com/rockrapids/community-apps.git
-
-# Install dependencies
-cd community-apps
-npm install
-
-# Start the development server
-npm run dev
-```
+Our architecture will continue to be selected for its maintainability, performance, and alignment with developing and growing the skill sets available in our community of high-agency volunteers.
 
 ### For Communities Looking to Fork This Project
 
@@ -84,28 +46,13 @@ This project is designed to be built and maintained by volunteers from the Rock 
 
 1. Review our [Contributing Guidelines](CONTRIBUTING.md)
 2. Familiarize yourself with our [Code of Conduct](CODE_OF_CONDUCT.md)
-3. Join us at an upcoming in-person meeting or training session
+3. READ the content in this guide; work through the development plan; improve it autodidactically.
 
 We value local participation to ensure our applications truly serve the specific needs of Rock Rapids.
-
-## Deployment
-
-The applications are hosted on Fly.io, with detailed deployment instructions available in the [deployment documentation](docs/deployment.md).
 
 ## Project Status
 
 This project is in active development. See the [Issues](https://github.com/rockrapids/community-apps/issues) page for current work items and the [Projects](https://github.com/rockrapids/community-apps/projects) page for our roadmap.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-We gratefully acknowledge the contributions of all Rock Rapids volunteers who have helped build and maintain these applications. Special thanks to:
-
-- Our dedicated corps of volunteer developers and designers
-- Community organizations who have provided feedback and testing
 
 ## Contact
 
