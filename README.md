@@ -1,21 +1,23 @@
-# Rock Rapids Community Applications Ecosystem
+# COGNITIVE TOOLS FOR FREE CITIZENS OF LYON COUNTY
 
-Project just initiated 4/1/2025 ... for a *proposed* suite of interconnected web applications designed to serve the Rock Rapids, Iowa community through easily maintainable, volunteer-driven technology solutions.
+In this bright year 2025, the digital landscape resembles nothing so much as ancient Rome—magnificent, crowded, and utterly resistant to architectural innovation. Platform loyalties are settled with the finality of religious conversion. Another app? ***Meh*** ... Save your breath and development time -- nobody cares; nobody wants to go back to 2010.
 
-## Important Notice for Contributors
+Our project operates on a principle the military discovered millennia ago: **INTELLIGENCE wins wars**, not the nice ass or app that's ridden into battle. We're building an API-first cognitive framework using Rust—because when information is ammunition, we don't tolerate delays, misfires or insecure information. Our implementation slashes latency to by orders of magnitude because in intelligence work, yesterday's data or something you wanted work on fifteen minutes ago is as useful as yesterday's weather report.
 
-**This project is intended primarily for residents of Rock Rapids, Iowa and the surrounding area who can participate in physical meetings and activities within the community.** While the code is open source and you're welcome to fork it as a template for your own community, active contribution to this specific implementation requires local participation.
+Some say that the human brain didn't evolve to process exabytes, but the fundamental failing in really revolutionizing the design of AI assistants and user interface latency has been treating humans as passengers on goat trains rather than pilots that fight. Our free, open source extensible system creates a true symbiosis—the machine processes data at machine speeds while the human makes decisions at human levels. The Tauri/Rust/Svelte interface, forked from [GitButler](https://gitbutler.com/) and tweaked slightly for our use cases, branches like evolutionary paths because the universe doesn't offer single solutions—it offers **spectrums** of diverse possibilities. 
+
+A citizen that works with their options to create something unique is FREE; a passive customer with convenient choices fed by a recommendation engine is being herded and groomed for harvest. The difference matters to those who prefer to die fighting like General Nathaniel Lyon, the namesake of Lyon County, rather than grovel on their knees accepting what is offered.
 
 ## About the Project
 
 The Rock Rapids community applications ecosystem consists of eight interconnected web applications, each addressing specific aspects of community life:
 
-- [Rockrapids.INFO](https://rockrapids.github.io/FOSS/0/): The central hub and gateway to all Rock Rapids applications
-- [Rockrapids.ART](https://rockrapids.github.io/FOSS/1/): Showcasing local arts, crafts, and creative endeavors
-- [Rockrapids.FUN](https://rockrapids.github.io/FOSS/2/): Highlighting recreational activities and entertainment options
-- [Rockrapids.GUIDE](https://rockrapids.github.io/FOSS/3/): Providing civic, school, church, and service provider information
-- [Rockrapids.SHOP](https://rockrapids.github.io/FOSS/4/): Featuring retail promotions and shopping events
-- [Rockrapids.STORE](https://rockrapids.github.io/FOSS/5/): Listing marketplace items and local products for sale
+- [Rockrapids.INFO](https://rockrapids.github.io/FOSS/0/): The central hub and top-level gateway to all Rock Rapids applications
+- [Rockrapids.ART](https://rockrapids.github.io/FOSS/1/): Information about arts, crafts, creative endeavors that showcases Rock Rapids citizens.
+- [Rockrapids.FUN](https://rockrapids.github.io/FOSS/2/): Highlighting recreational activities and entertainment options, especially in Rock Rapids.
+- [Rockrapids.GUIDE](https://rockrapids.github.io/FOSS/3/): Providing civic, school, church, Sheriff, EMT/Fire and public service information
+- [Rockrapids.SHOP](https://rockrapids.github.io/FOSS/4/): Featuring retail promotions and shopping events of Rock Rapids merchants/vendors.
+- [Rockrapids.STORE](https://rockrapids.github.io/FOSS/5/): Listing marketplace items and products for sale that showcase locally available items.
 - [Rockrapids.WORK](https://rockrapids.github.io/FOSS/6/): Connecting people with employment opportunities
 - [Rockrapids.XYZ](https://rockrapids.github.io/FOSS/7/): Coordinating volunteer activities and recognition
 
